@@ -71,6 +71,7 @@
                 android:layout_marginLeft="@dimen/margin"
                 android:autoLink="web"
                 android:drawableLeft="@drawable/team"
+                android:drawablePadding="@dimen/webmargin"
                 android:text="@string/web"
                 android:textColorLink="@color/textColor"
                 android:textSize="@dimen/sizeweb" />
