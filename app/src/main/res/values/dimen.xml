@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="imageHeight">200dp</dimen>
+    <dimen name="webmargin">8dp</dimen>
+    <dimen name="sizeaddress">36sp</dimen>
+    <dimen name="sizeaddress2">28sp</dimen>
+    <dimen name="sizeweb">16sp</dimen>
+</resources>

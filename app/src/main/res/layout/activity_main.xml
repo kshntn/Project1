@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.businesscard.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/imageHeight"
+            android:layout_weight="1"
+            android:scaleType="fitXY"
+            android:src="@drawable/coffeeshop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:drawableLeft="@drawable/man"
+            android:drawablePadding="@dimen/webmargin"
+            android:text="@string/Contact" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:fontFamily="cursive"
+            android:text="@string/Address"
+            android:textColor="@color/Addresscolour"
+            android:textSize="@dimen/sizeaddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:autoLink="all"
+            android:fontFamily="@string/style2"
+            android:text="@string/Address2"
+            android:textColor="@color/textColor"
+            android:textColorLink="@color/textColor"
+            android:textSize="@dimen/sizeaddress2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/webmargin"
+                android:layout_marginLeft="@dimen/margin"
+                android:layout_marginTop="@dimen/margin"
+                android:text="@string/timing"
+                android:textColor="@color/textColor" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/time"
+                android:layout_marginBottom="@dimen/margin"
+                android:layout_marginLeft="@dimen/margin"
+                android:autoLink="web"
+                android:drawableLeft="@drawable/team"
+                android:text="@string/web"
+                android:textColorLink="@color/textColor"
+                android:textSize="@dimen/sizeweb" />
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
